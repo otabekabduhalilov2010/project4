@@ -1,0 +1,30 @@
+.box{
+    width: 200px;
+    height: 140px;
+    border:  2px solid rgb(0, 255, 0) ;
+}
+
+
+
+
+.box2{
+      transition: 0.5s;
+    transform: scale(1);
+animation: anim2 0.5s infinite ;
+border: 2px  solid red;
+
+
+&:hover{
+transform: scale(1.5);
+}
+
+}
+
+
+
+img {
+    width: 200px;
+    height: 140px;
+}
+
+
